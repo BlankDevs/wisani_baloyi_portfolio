@@ -72,7 +72,7 @@
       -webkit-backdrop-filter: blur(4px);
       border: 1px solid rgba(221, 221, 221, 0.18);
 
-      border-radius: 15px;
+      border-radius: 10px;
       flex-direction: row;
       width: auto;
   
@@ -89,14 +89,6 @@
         text-align: center;
       }
     }
-  
-    // span {
-    //   font-size: 2.5rem;
-  
-    //   @media screen and (min-width: 2000px) {
-    //     font-size: 5rem;
-    //   }
-    // }
   
     @media screen and (max-width: 1200px) {
       flex-direction: flex-start;
@@ -120,7 +112,7 @@
       border-radius: 50%;
       
   
-      background: var(--white-color);
+      background: transparent;
       box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   
       img {
