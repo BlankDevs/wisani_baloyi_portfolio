@@ -13,26 +13,33 @@
   }
   
   .app__profile-item {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-color: #1acefe;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+
     width: 190px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin: 2rem;
   
     img {
       width: 100%;
-      height: 170px;
-      border-radius: 15px;
-      object-fit: cover;
+      object-fit: fill;
     }
-  
+    
+    h2, p {
+      text-align: center;
+      font-weight: 200;
+    }
+
     @media screen and (min-width: 2000px) {
       width: 370px;
       margin: 2rem 4rem;
-  
-      img {
-        height: 320px;
-      }
     }
   }

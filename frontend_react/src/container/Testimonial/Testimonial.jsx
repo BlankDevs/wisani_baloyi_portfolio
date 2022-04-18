@@ -37,7 +37,7 @@ const Testimonial = () => {
             <div className="app__testimonial-content">
               <p className="p-text">{testimonials[currentIndex].feedback}</p>
               <div>
-                <h4 className="bold-text">{testimonials[currentIndex].name}</h4>
+                <h3 className="bold-text">{testimonials[currentIndex].name}</h3>
                 <h5 className="p-text">{testimonials[currentIndex].company}</h5>
                 <h5 className="p-text">{testimonials[currentIndex].position}</h5>
               </div>
